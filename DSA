@@ -1,0 +1,102 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ */
+
+package com.mycompany.niji;
+import java.util.Scanner;
+
+/**
+ *
+ * @author CL3-PC11
+ */
+public class Niji {
+
+    public static void main(String[] args) {
+        Scanner input = new Scanner (System.in);
+        
+        
+        System.out.println("MENU");
+        System.out.println(" [1] =Snacks");
+        System.out.println("[2] = Drinks");
+        System.out.println("Enter your choice:");
+        int ch1 = input.nextInt();
+        
+        if (ch1 ==1)
+        {    
+             System.out.println(" [1] =Snacks");
+             System.out.println("[1] Clover");
+            System.out.println("[2] Oishi"); 
+            
+            
+            System.out.println("Enter your snacks: ");
+             int ch2 = input.nextInt();
+          
+            
+            
+             if(ch2 == 1)
+             {
+                System.out.println("Clover");
+      
+                
+                  System.out.println(" Drinks");
+             System.out.println("[1] Coke");
+            System.out.println("[2] Sprite");   
+                
+             
+               
+                
+             System.out.println("Enter your order: ");
+             int ch3 = input.nextInt();
+          
+            
+          
+       if (ch3 ==1)
+        {    
+          
+              System.out.println("[1] Coke"); 
+                 
+        } 
+       else if (ch3==2)
+           {    
+          
+              System.out.println("[1] Sprite"); 
+                 
+        } 
+        else if (ch2==2)
+           {    
+          
+              System.out.println("[1] Oishi"); 
+                 
+        } 
+       
+               
+      
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+       
+        
+        
+        
+        
+                
+        
+        
+     }
+         
+       
+        
+        
+        }
+    }
+}
+
+
+
